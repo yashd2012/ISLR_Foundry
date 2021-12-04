@@ -1,0 +1,6 @@
+1. Environments: 
+
+1.1. Making environments available in jupyter
+
+conda install -c anaconda ipykernel
+python -m ipykernel install --user --name=<env_name>
